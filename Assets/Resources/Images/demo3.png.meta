@@ -1,0 +1,370 @@
+fileFormatVersion: 2
+guid: e620c581a6f5e01438d5372f3c2af110
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2538339117654269346
+    second: demo3_0
+  - first:
+      213: 4264465334254863260
+    second: demo3_1
+  - first:
+      213: 2731180876628305021
+    second: demo3_2
+  - first:
+      213: 8706388653115885681
+    second: demo3_3
+  - first:
+      213: 4459922171050306013
+    second: demo3_4
+  - first:
+      213: -5878265323027430913
+    second: demo3_5
+  - first:
+      213: -1076563356742792899
+    second: demo3_6
+  - first:
+      213: 3984938235291131005
+    second: demo3_7
+  - first:
+      213: -6230793957786030356
+    second: demo3_8
+  - first:
+      213: 1421891907953660161
+    second: demo3_9
+  - first:
+      213: 7246033848004666728
+    second: demo3_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: demo3_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 446
+        width: 194
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5000002, y: 0.5039097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2add2439afdf93320800000000000000
+      internalID: 2538339117654269346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 446
+        width: 202
+        height: 215
+      alignment: 9
+      pivot: {x: 0.5082449, y: 0.48838088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c938a3d90ac6e2b30800000000000000
+      internalID: 4264465334254863260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_2
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 448
+        width: 192
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7425c0798a17e520800000000000000
+      internalID: 2731180876628305021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 207
+        width: 194
+        height: 214
+      alignment: 9
+      pivot: {x: 0.50429225, y: 0.47276178}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178c6710a5e43d870800000000000000
+      internalID: 8706388653115885681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 217
+        width: 195
+        height: 213
+      alignment: 9
+      pivot: {x: 0.50427073, y: 0.44917735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9a75bb593d4ed30800000000000000
+      internalID: 4459922171050306013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 221
+        width: 188
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47875726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1047545d43c6ea0800000000000000
+      internalID: -5878265323027430913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_7
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 0
+        width: 196
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c566e36385d4730800000000000000
+      internalID: 3984938235291131005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 194
+        height: 195
+      alignment: 9
+      pivot: {x: 0.4957076, y: 0.46156737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101949228239bb310800000000000000
+      internalID: 1421891907953660161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demo3_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 25
+        width: 195
+        height: 188
+      alignment: 9
+      pivot: {x: 0.49114147, y: 0.40255487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86566c4c4651f8460800000000000000
+      internalID: 7246033848004666728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 93cfc389f0ec8504984c5c320873bd9b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      demo3_0: 2538339117654269346
+      demo3_1: 4264465334254863260
+      demo3_10: 7246033848004666728
+      demo3_2: 2731180876628305021
+      demo3_3: 8706388653115885681
+      demo3_4: 4459922171050306013
+      demo3_5: -5878265323027430913
+      demo3_7: 3984938235291131005
+      demo3_9: 1421891907953660161
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
