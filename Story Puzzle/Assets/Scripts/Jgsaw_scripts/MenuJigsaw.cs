@@ -76,7 +76,10 @@ public class MenuJigsaw : MonoBehaviour
 
     public void SetEnablePausePanel(bool flag)
     {
-        AudioManager.instance.PlaySFX("Click");
+        if (flag)
+            AudioManager.instance.PlaySFX("Click");
+        else
+            AudioManager.instance.PlaySFX("Close");
         panelPausePanel.SetActive(flag);
         if (flag)
             FadeInUI(panelPausePanel);

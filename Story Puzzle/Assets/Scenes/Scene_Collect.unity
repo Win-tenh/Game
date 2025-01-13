@@ -260,13 +260,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5654611764572227254, guid: 5640efc600e7e6041a40ceb458f19a3d, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8742417512577802505, guid: 5640efc600e7e6041a40ceb458f19a3d, type: 3}
       propertyPath: m_Name
       value: LoadTransition
       objectReference: {fileID: 0}
     - target: {fileID: 8742417512577802505, guid: 5640efc600e7e6041a40ceb458f19a3d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9049369366986079814, guid: 5640efc600e7e6041a40ceb458f19a3d, type: 3}
       propertyPath: m_LocalPosition.x
