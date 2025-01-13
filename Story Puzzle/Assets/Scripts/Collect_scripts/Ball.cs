@@ -26,7 +26,6 @@ public class Ball : MonoBehaviour
         if (col.CompareTag("DeathZone"))
         {
             //Debug.Log("Qua bong da va cham voi deathzone, Gameover");
-            m_gc.DecrementHealth();
             Destroy(gameObject);
         }
     }
