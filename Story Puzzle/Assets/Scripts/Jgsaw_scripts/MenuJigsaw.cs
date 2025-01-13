@@ -23,55 +23,14 @@ public class MenuJigsaw : MonoBehaviour
         AudioManager.instance.UnPause();
     }
 
-    IEnumerator FadeInUI(GameObject panel, float fadeInDuration = 2.0f)
-    {
-        Graphic[] graphics = panel.GetComponentsInChildren<Graphic>();
-        foreach (Graphic g in graphics)
-        {
-            g.color = new Color(
-                g.color.r,
-                g.color.g,
-                g.color.b,
-                0.0f);
-        }
-
-        float timer = 0.0f;
-        while (timer < fadeInDuration)
-        {
-            timer += Time.deltaTime;
-            float normailisedTime = timer / fadeInDuration;
-            foreach (Graphic g in graphics)
-            {
-                g.color = new Color(
-                    g.color.r,
-                    g.color.g,
-                    g.color.b,
-                    normailisedTime);
-            }
-            yield return null;
-        }
-        foreach (Graphic g in graphics)
-        {
-            g.color = new Color(
-                g.color.r,
-                g.color.g,
-                g.color.b,
-                1.0f);
-        }
-    }
-
     public void SetEnableBotPanel(bool flag)
     {
         panelBottomPanel.SetActive(flag);
-        if (flag)
-            FadeInUI(panelBottomPanel);
     }
 
     public void SetEnableTopPanel(bool flag)
     {
         panelTopPanel.SetActive(flag);
-        if (flag)
-            FadeInUI(panelTopPanel);
     }
 
     public void SetEnablePausePanel(bool flag)
@@ -81,8 +40,6 @@ public class MenuJigsaw : MonoBehaviour
         else
             AudioManager.instance.PlaySFX("Close");
         panelPausePanel.SetActive(flag);
-        if (flag)
-            FadeInUI(panelPausePanel);
     }
 
     public void SetEnableGameComplete(bool flag)
@@ -92,8 +49,6 @@ public class MenuJigsaw : MonoBehaviour
         textTimeComplete.text = textTime.text;
 
         panelGameComplete.SetActive(flag);
-        if (flag)
-            FadeInUI(panelGameComplete);
     }
 
     public void SetTimeInSeconds(double tt)
