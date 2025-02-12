@@ -87,18 +87,16 @@ public class BoardGen : MonoBehaviour
         mGOOpaque.name = imageFilename + "_Opaque";
         mGOOpaque.AddComponent<SpriteRenderer>().sprite = mBaseSpriteOpaque;
         mGOOpaque.GetComponent<SpriteRenderer>().sortingLayerName = "Opaque";
+        mGOOpaque.gameObject.SetActive(false);
 
         mBaseSpriteTransparent = CreateTransparentView(mBaseSpriteOpaque.texture);
         mGOTransparent = new GameObject();
         mGOTransparent.name = imageFilename + "_Transparent";
         mGOTransparent.AddComponent<SpriteRenderer>().sprite = mBaseSpriteTransparent;
-        mGOTransparent.GetComponent<SpriteRenderer>().sortingLayerName= "Transparent";
-
-        mGOOpaque.gameObject.SetActive(false);
+        mGOTransparent.GetComponent<SpriteRenderer>().sortingLayerName = "Transparent";
        
         SetCameraPosition();
 
-        //CreateJigSawTiles();
         StartCoroutine(Coroutine_CreateJigSawTiles());
     }
 

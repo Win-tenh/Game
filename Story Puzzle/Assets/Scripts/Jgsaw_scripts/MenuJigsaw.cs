@@ -82,6 +82,8 @@ public class MenuJigsaw : MonoBehaviour
     public void OnClickPLayAgain()
     {
         AudioManager.instance.PlaySFX("Click");
+        panelPausePanel.SetActive(false);
+        panelTopPanel.SetActive(false);
         panelGameComplete.SetActive(false);
         TransitionManager.Instance.TransitionToScene(1);
     }
